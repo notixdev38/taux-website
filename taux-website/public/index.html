@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Taux | Clan Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 class="neon">Taux</h1>
+</header>
+
+<nav>
+  <button onclick="openPage('dashboard')">Dashboard</button>
+  <button onclick="openPage('discord')">Discord</button>
+  <button onclick="openPage('achievements')">Achievements</button>
+  <button onclick="openPage('oauth')">OAuth</button>
+</nav>
+
+<section id="dashboard" class="page">
+  <h2>Clan Info</h2>
+  <p>Owner: kingthomas_, lasseman12</p>
+  <p>Developer: 9_Notix_7</p>
+
+  <audio src="music.mp3" controls autoplay loop></audio>
+</section>
+
+<section id="discord" class="page">
+  <a class="btn" href="https://discord.gg/3XQkXeBt3d" target="_blank">
+    Discord beitreten
+  </a>
+</section>
+
+<section id="achievements" class="page">
+  <div id="gallery"></div>
+</section>
+
+<section id="oauth" class="page">
+  <div id="user"></div>
+  <a class="btn" href="/auth/discord">Mit Discord einloggen</a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
